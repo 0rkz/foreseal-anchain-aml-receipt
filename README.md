@@ -1,4 +1,4 @@
-# ForeSeal Gate × AnChain-style AML — verifiable receipts on a paid screening call
+# ForeSeal Gate — verifiable receipts on a paid AML screening call (AnChain-style, unaffiliated)
 
 A small, MIT-licensed example: front an **AML screening endpoint** with the
 [ForeSeal Gate](https://www.npmjs.com/package/@foreseal/gate) so every paid
@@ -52,15 +52,7 @@ npm install
 npm start
 ```
 
-> `@foreseal/gate@0.1.1` must be available on npm for `npm install` to resolve.
-> To run against a **local** build of the Gate before it is published, from this
-> directory:
->
-> ```bash
-> npm pack ../../packages/x402-middleware   # produces foreseal-gate-0.1.1.tgz
-> npm install ./foreseal-gate-0.1.1.tgz
-> npm start
-> ```
+> `npm install` resolves `@foreseal/gate` from npm.
 
 ## How it works
 
